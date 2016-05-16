@@ -22,8 +22,8 @@
 }
 .header{
   font-family: animal;
-  color: #edd9c0;
-  opacity: 0.9;
+  color: #41C0FF;
+  opacity: 0.8;
   letter-spacing: 10px;
   margin-top: 40px;
   font-size:  95px;
@@ -122,8 +122,8 @@
 
 .header1 {
   /*margin-top: -20px;*/
-  color: #92BBCF;
-  text-shadow: 9px 9px 9px black;
+  color: orange;
+  text-shadow: 2px 2px 2px black;
   font-family: helvatica;
   font-size: 30px;
 }
@@ -151,9 +151,10 @@ figure.snip1091 {
   font-family: 'Raleway', Arial, sans-serif;
   position: relative;
   float: left;
+  margin-right: 25px;
   margin: 10px 1%;
-  min-width: 220px;
-  max-width: 310px;
+  min-width: 100%;
+  max-width: 30%;
   max-height: 310px;
   width: 100%;
   overflow: hidden;
@@ -271,7 +272,6 @@ figure.snip1091.hover figcaption:after {
 
 .here a {
   font-size: 19px;
-  /*color: orange !important;*/
   font-family: vandyke;
 }
 
@@ -290,14 +290,21 @@ opacity: 0.2;
 }
 
 .jane {
-  opacity: 0.6;
+  opacity: 0.1;
 }
 
+.gingo {
+  font-family: animal;
+}
 /*.letters1 {
   color: yellow !important;
   font-family: cursive;
   font-size: 70px;
 }*/
+
+body {
+  background-color: #F0FFDF;
+}
 
 #moveME {
   color:yellow !important ;
@@ -306,7 +313,8 @@ opacity: 0.2;
  #index-banner {
 
    height: 80vh;
-   width: 100vw;
+   width: 90vw;
+   margin: 0 auto;
 
  }
 
